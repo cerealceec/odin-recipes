@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, sans-serif;
+    background-color: #ffffe6;
+    font-size: 14px;
+}
+
+h1 {
+    color: #339966;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    color: #40bf40;
+}
+
+.recipe-list ul {
+    list-style-type: none;
+}
+
+.recipe-list li {
+    margin: 10px;
+}
+
+.recipe-list a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #40bf40;
+}
+
+.ingredients {
+    color: #336699;
+}
+
+.steps {
+    color: #666699;
+}
