@@ -6,8 +6,9 @@
 
 h1 {
     color: #339966;
-    font-size: 60px;
+    font-size: 48px;
     text-align: center;
+    margin-top: 50px;
 }
 
 h2 {
@@ -15,18 +16,34 @@ h2 {
     color: #40bf40;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    padding: 0px 50px 50px;
+}
+
 .recipe-list ul {
     list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .recipe-list li {
-    margin: 10px;
+    margin: 36px;
 }
 
 .recipe-list a {
     font-weight: 600;
     font-size: 20px;
     color: #40bf40;
+    text-decoration: none;
+    padding: 8px;
+    border: 3px solid #ccff33;
+    border-radius: 10px;
 }
 
 .ingredients {
